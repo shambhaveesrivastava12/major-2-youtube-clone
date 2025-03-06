@@ -1,5 +1,16 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+/terraform/Jenkins-Sonarqube/.terraform
+/terraform/Jenkins-Sonarqube/jenkins-major2.pem
+/terraform/Jenkins-Sonarqube/.terraform.lock.hcl
+/terraform/Jenkins-Sonarqube/terraform.tfstate
+/terraform/Jenkins-Sonarqube/terraform.tfstate.backup
+/terraform/Monitoring/.terraform
+/terraform/Monitoring/monitoringg-major2.pem
+/terraform/Monitoring/.terraform.lock.hcl
+/terraform/Monitoring/terraform.tfstate
+/terraform/Monitoring/terraform.tfstate.backup
+
 # dependencies
 /node_modules
 /.pnp
