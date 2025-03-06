@@ -10,7 +10,7 @@
 /terraform/Monitoring/.terraform.lock.hcl
 /terraform/Monitoring/terraform.tfstate
 /terraform/Monitoring/terraform.tfstate.backup
-
+.env
 # dependencies
 /node_modules
 /.pnp
