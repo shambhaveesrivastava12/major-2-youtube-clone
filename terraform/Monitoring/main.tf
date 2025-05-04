@@ -1,7 +1,7 @@
 resource "aws_instance" "web" {
-  ami                    = "ami-04b4f1a9cf54c11d0"      #change ami id for different region
+  ami                    = "ami-0f9de6e2d2f067fca"      
   instance_type          = "t2.medium"
-  key_name               = "monitoringg-major2"              #change key name as per your setup
+  key_name               = "prometheus"             
   vpc_security_group_ids = [aws_security_group.Monitoring-Server-SG.id]
   user_data              = templatefile("./install.sh", {})
 
